@@ -1,15 +1,18 @@
 # app.py — Basic Calculator
 # This file is used across all 4 Claude Code setup demos (Lecture 6.1)
 
-def add(a, b):
+def add(a: float, b: float) -> float:
+    """Return the sum of a and b."""
     return a + b
 
 
-def subtract(a, b):
+def subtract(a: float, b: float) -> float:
+    """Return a minus b."""
     return a - b
 
 
-def multiply(a, b):
+def multiply(a: float, b: float) -> float:
+    """Return a multiplied by b."""
     return a * b
 
 
